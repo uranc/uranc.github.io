@@ -24,6 +24,16 @@
 	        		<li><a href="mailto:cemuran@gmail.com">email</a></li>
 	        		<li><a href="https://github.com/uranc">github.com/uranc</a></li>
 				</ul>
+<div id="social-media">
+    {% assign sm = site.data.social-media %}
+    {% for entry in sm %}
+        {% assign key = entry | first %}
+        {% if sm[key].id %}
+            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="fa {{ sm[key].fa-icon }}"></i></a>
+        {% endif %}
+    {% endfor %}
+</div>				
+				
 			</footer>
 		</body>
 	</html>
