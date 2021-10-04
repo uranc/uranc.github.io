@@ -1,4 +1,5 @@
 name: Cem Uran
+theme: minimal-mistakes-jekyll
 markdown: kramdown
 social-network-links:
   twitter: uranc__
