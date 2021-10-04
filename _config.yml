@@ -1,6 +1,10 @@
 name: Cem Uran
 markdown: kramdown
-social_links:
+social-network-links:
   twitter: uranc__
   github: uranc
   linkedin: cem-uran-34143510b
+share-links-active:
+  twitter: true
+  github: true
+  linkedin: true
